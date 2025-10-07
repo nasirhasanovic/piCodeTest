@@ -35,16 +35,6 @@
 			path = piCodeTest;
 			sourceTree = "<group>";
 		};
-		501E3C992E9575CE00B79712 /* piCodeTestTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = piCodeTestTests;
-			sourceTree = "<group>";
-		};
-		501E3CA32E9575CE00B79712 /* piCodeTestUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = piCodeTestUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				501E3C8B2E9575CD00B79712 /* piCodeTest */,
-				501E3C992E9575CE00B79712 /* piCodeTestTests */,
-				501E3CA32E9575CE00B79712 /* piCodeTestUITests */,
 				501E3C8A2E9575CD00B79712 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				501E3C982E9575CE00B79712 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				501E3C992E9575CE00B79712 /* piCodeTestTests */,
-			);
 			name = piCodeTestTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				501E3CA22E9575CE00B79712 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				501E3CA32E9575CE00B79712 /* piCodeTestUITests */,
 			);
 			name = piCodeTestUITests;
 			packageProductDependencies = (
