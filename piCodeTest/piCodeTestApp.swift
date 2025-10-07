@@ -11,7 +11,7 @@ import SwiftUI
 struct piCodeTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PostsView()
         }
     }
 }
